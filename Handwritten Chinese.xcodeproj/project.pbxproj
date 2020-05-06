@@ -1,0 +1,952 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB098F9923259C8D00C914AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB098F9823259C8D00C914AF /* AppDelegate.swift */; };
+		BB098F9B23259C8D00C914AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB098F9A23259C8D00C914AF /* ViewController.swift */; };
+		BB098FA323259C8E00C914AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB098FA223259C8E00C914AF /* Assets.xcassets */; };
+		BB098FA623259C8E00C914AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB098FA423259C8E00C914AF /* LaunchScreen.storyboard */; };
+		BB098FB123259C8E00C914AF /* Handwritten_ChineseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB098FB023259C8E00C914AF /* Handwritten_ChineseTests.swift */; };
+		BB098FBC23259C8E00C914AF /* Handwritten_ChineseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB098FBB23259C8E00C914AF /* Handwritten_ChineseUITests.swift */; };
+		BB1AAF3E23B68000000937DA /* DETsix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1AAF3D23B67FFF000937DA /* DETsix.swift */; };
+		BB1AAF4023B6800D000937DA /* DETseven.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1AAF3F23B6800D000937DA /* DETseven.swift */; };
+		BB1AAF4223B68034000937DA /* DETeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1AAF4123B68034000937DA /* DETeight.swift */; };
+		BB1AAF4423B68042000937DA /* DETnine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1AAF4323B68042000937DA /* DETnine.swift */; };
+		BB1AAF4623B6805E000937DA /* DETten.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1AAF4523B6805E000937DA /* DETten.swift */; };
+		BB1AAF4A23C62168000937DA /* SetVob.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1AAF4923C62168000937DA /* SetVob.swift */; };
+		BB22302C240A64A200AE1545 /* Main.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB22302B240A64A200AE1545 /* Main.mp3 */; };
+		BB22955323AF68A300D9D5C9 /* KaiTi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB22955223AF68A200D9D5C9 /* KaiTi.ttf */; };
+		BB22955523AF68AA00D9D5C9 /* THSarabun.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB22955423AF68AA00D9D5C9 /* THSarabun.ttf */; };
+		BB22955723AF730400D9D5C9 /* DETfour.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB22955623AF730400D9D5C9 /* DETfour.swift */; };
+		BB22955923AF871E00D9D5C9 /* ten.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB22955823AF871E00D9D5C9 /* ten.mp3 */; };
+		BB22956023AF9E8600D9D5C9 /* DETfive.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB22955F23AF9E8600D9D5C9 /* DETfive.swift */; };
+		BB22956223B0F4AB00D9D5C9 /* SetVocab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB22956123B0F4AB00D9D5C9 /* SetVocab.swift */; };
+		BB297EAC23D74EA6001D302A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB297EAB23D74EA6001D302A /* Main.storyboard */; };
+		BB297EB423D87490001D302A /* Nature.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB297EAE23D87490001D302A /* Nature.mp3 */; };
+		BB297EB523D87490001D302A /* Rock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB297EAF23D87490001D302A /* Rock.mp3 */; };
+		BB297EB623D87490001D302A /* Wood.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB297EB023D87490001D302A /* Wood.mp3 */; };
+		BB297EB723D87490001D302A /* Mountain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB297EB123D87490001D302A /* Mountain.mp3 */; };
+		BB297EB823D87490001D302A /* Forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB297EB223D87490001D302A /* Forest.mp3 */; };
+		BB297EB923D87490001D302A /* River.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB297EB323D87490001D302A /* River.mp3 */; };
+		BB297EBE23D87503001D302A /* WritingPage3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB297EBD23D87503001D302A /* WritingPage3.swift */; };
+		BB297EC023D881E2001D302A /* Sun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB297EBF23D881E2001D302A /* Sun.mp3 */; };
+		BB297EC223D8A5E9001D302A /* DETwood.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB297EC123D8A5E8001D302A /* DETwood.swift */; };
+		BB297EC423D8A5FC001D302A /* DETforest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB297EC323D8A5FC001D302A /* DETforest.swift */; };
+		BB297EC623D8A60C001D302A /* DETriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB297EC523D8A60C001D302A /* DETriver.swift */; };
+		BB297EC823D8A61B001D302A /* DETrock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB297EC723D8A61B001D302A /* DETrock.swift */; };
+		BB297ECA23D8A648001D302A /* DETmountain.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB297EC923D8A648001D302A /* DETmountain.swift */; };
+		BB297ECC23D8A653001D302A /* DETsun.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB297ECB23D8A653001D302A /* DETsun.swift */; };
+		BB824288235A0C92005DEBE0 /* DETtwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB824287235A0C92005DEBE0 /* DETtwo.swift */; };
+		BB82428A235A0CCD005DEBE0 /* DETone.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB824289235A0CCD005DEBE0 /* DETone.swift */; };
+		BB82428C235A0CE5005DEBE0 /* DETthree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB82428B235A0CE5005DEBE0 /* DETthree.swift */; };
+		BB91445A240BC8E30005AB70 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB914459240BC8E30005AB70 /* Setting.swift */; };
+		BB91445C240C0B8C0005AB70 /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB91445B240C0B8C0005AB70 /* FirstPage.swift */; };
+		BB9F666423D1E78000799B31 /* DETeye.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9F666323D1E78000799B31 /* DETeye.swift */; };
+		BB9F666623D1EA9600799B31 /* WritingPage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9F666523D1EA9600799B31 /* WritingPage2.swift */; };
+		BB9F666823D4656500799B31 /* DETmouth.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9F666723D4656500799B31 /* DETmouth.swift */; };
+		BB9F666B23D46D9100799B31 /* DETear.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9F666A23D46D9100799B31 /* DETear.swift */; };
+		BBB43E6223CE49100094D1C8 /* image.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB43E6123CE49100094D1C8 /* image.swift */; };
+		BBB43E6823D0D81B0094D1C8 /* Head.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBB43E6723D0D81B0094D1C8 /* Head.mp3 */; };
+		BBBACEDA2326618200AA6768 /* WritingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBACED92326618200AA6768 /* WritingPage.swift */; };
+		BBC175392328366600092EAF /* AlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBC175382328366600092EAF /* AlertView.xib */; };
+		BBC1753B232837E800092EAF /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC1753A232837E800092EAF /* AlertView.swift */; };
+		BBC8A01A2396744B007BBB92 /* five.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBC8A0112396744B007BBB92 /* five.mp3 */; };
+		BBC8A01B2396744B007BBB92 /* nine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBC8A0122396744B007BBB92 /* nine.mp3 */; };
+		BBC8A01C2396744B007BBB92 /* one.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBC8A0132396744B007BBB92 /* one.mp3 */; };
+		BBC8A01D2396744B007BBB92 /* three.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBC8A0142396744B007BBB92 /* three.mp3 */; };
+		BBC8A01E2396744B007BBB92 /* seven.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBC8A0152396744B007BBB92 /* seven.mp3 */; };
+		BBC8A01F2396744B007BBB92 /* six.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBC8A0162396744B007BBB92 /* six.mp3 */; };
+		BBC8A0202396744B007BBB92 /* two.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBC8A0172396744B007BBB92 /* two.mp3 */; };
+		BBC8A0212396744B007BBB92 /* eight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBC8A0182396744B007BBB92 /* eight.mp3 */; };
+		BBC8A0222396744B007BBB92 /* four.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBC8A0192396744B007BBB92 /* four.mp3 */; };
+		BBC8A02423973A28007BBB92 /* Haoma.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBC8A02323973A28007BBB92 /* Haoma.mp3 */; };
+		BBD14BD623D5E8EB00A779C0 /* Mouth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBD14BD223D5E8EB00A779C0 /* Mouth.mp3 */; };
+		BBD14BD723D5E8EB00A779C0 /* Eye.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBD14BD323D5E8EB00A779C0 /* Eye.mp3 */; };
+		BBD14BD823D5E8EB00A779C0 /* Ear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBD14BD423D5E8EB00A779C0 /* Ear.mp3 */; };
+		BBD14BD923D5E8EB00A779C0 /* Nose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBD14BD523D5E8EB00A779C0 /* Nose.mp3 */; };
+		BBD14BDB23D5EDF100A779C0 /* Face.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBD14BDA23D5EDF100A779C0 /* Face.mp3 */; };
+		BBDECD772401400C0018D0C3 /* WritingPage4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDECD762401400C0018D0C3 /* WritingPage4.swift */; };
+		BBDECD79240140300018D0C3 /* DETup.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDECD78240140300018D0C3 /* DETup.swift */; };
+		BBDECD7B2401403E0018D0C3 /* DETdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDECD7A2401403E0018D0C3 /* DETdown.swift */; };
+		BBDECD7D2401404E0018D0C3 /* DETright.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDECD7C2401404E0018D0C3 /* DETright.swift */; };
+		BBDECD7F2401405C0018D0C3 /* DETleft.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDECD7E2401405C0018D0C3 /* DETleft.swift */; };
+		BBDECD86240140F50018D0C3 /* Left.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBDECD81240140F40018D0C3 /* Left.mp3 */; };
+		BBDECD87240140F50018D0C3 /* Up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBDECD82240140F40018D0C3 /* Up.mp3 */; };
+		BBDECD88240140F50018D0C3 /* Direction.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBDECD83240140F40018D0C3 /* Direction.mp3 */; };
+		BBDECD89240140F50018D0C3 /* Down.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBDECD84240140F40018D0C3 /* Down.mp3 */; };
+		BBDECD8A240140F50018D0C3 /* Right.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBDECD85240140F50018D0C3 /* Right.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB098FAD23259C8E00C914AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB098F8D23259C8D00C914AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB098F9423259C8D00C914AF;
+			remoteInfo = "Handwritten Chinese";
+		};
+		BB098FB823259C8E00C914AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB098F8D23259C8D00C914AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB098F9423259C8D00C914AF;
+			remoteInfo = "Handwritten Chinese";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB098F9523259C8D00C914AF /* Handwritten Chinese.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Handwritten Chinese.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB098F9823259C8D00C914AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB098F9A23259C8D00C914AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB098FA223259C8E00C914AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB098FA523259C8E00C914AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB098FA723259C8E00C914AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB098FAC23259C8E00C914AF /* Handwritten ChineseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Handwritten ChineseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB098FB023259C8E00C914AF /* Handwritten_ChineseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handwritten_ChineseTests.swift; sourceTree = "<group>"; };
+		BB098FB223259C8E00C914AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB098FB723259C8E00C914AF /* Handwritten ChineseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Handwritten ChineseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB098FBB23259C8E00C914AF /* Handwritten_ChineseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handwritten_ChineseUITests.swift; sourceTree = "<group>"; };
+		BB098FBD23259C8E00C914AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB1AAF3D23B67FFF000937DA /* DETsix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DETsix.swift; sourceTree = "<group>"; };
+		BB1AAF3F23B6800D000937DA /* DETseven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DETseven.swift; sourceTree = "<group>"; };
+		BB1AAF4123B68034000937DA /* DETeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DETeight.swift; sourceTree = "<group>"; };
+		BB1AAF4323B68042000937DA /* DETnine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DETnine.swift; sourceTree = "<group>"; };
+		BB1AAF4523B6805E000937DA /* DETten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DETten.swift; sourceTree = "<group>"; };
+		BB1AAF4923C62168000937DA /* SetVob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetVob.swift; sourceTree = "<group>"; };
+		BB22302B240A64A200AE1545 /* Main.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Main.mp3; path = "Handwritten Chinese/Sound/Main.mp3"; sourceTree = SOURCE_ROOT; };
+		BB22955223AF68A200D9D5C9 /* KaiTi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KaiTi.ttf; sourceTree = "<group>"; };
+		BB22955423AF68AA00D9D5C9 /* THSarabun.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = THSarabun.ttf; sourceTree = "<group>"; };
+		BB22955623AF730400D9D5C9 /* DETfour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DETfour.swift; sourceTree = "<group>"; };
+		BB22955823AF871E00D9D5C9 /* ten.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ten.mp3; path = "Handwritten Chinese/Assets.xcassets/Sound/Number/ten.mp3"; sourceTree = SOURCE_ROOT; };
+		BB22955F23AF9E8600D9D5C9 /* DETfive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DETfive.swift; sourceTree = "<group>"; };
+		BB22956123B0F4AB00D9D5C9 /* SetVocab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetVocab.swift; sourceTree = "<group>"; };
+		BB297EAB23D74EA6001D302A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BB297EAE23D87490001D302A /* Nature.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Nature.mp3; path = "Handwritten Chinese/Assets.xcassets/Sound/Nature/Nature.mp3"; sourceTree = SOURCE_ROOT; };
+		BB297EAF23D87490001D302A /* Rock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Rock.mp3; path = "Handwritten Chinese/Assets.xcassets/Sound/Nature/Rock.mp3"; sourceTree = SOURCE_ROOT; };
+		BB297EB023D87490001D302A /* Wood.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Wood.mp3; path = "Handwritten Chinese/Assets.xcassets/Sound/Nature/Wood.mp3"; sourceTree = SOURCE_ROOT; };
+		BB297EB123D87490001D302A /* Mountain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Mountain.mp3; path = "Handwritten Chinese/Assets.xcassets/Sound/Nature/Mountain.mp3"; sourceTree = SOURCE_ROOT; };
+		BB297EB223D87490001D302A /* Forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Forest.mp3; path = "Handwritten Chinese/Assets.xcassets/Sound/Nature/Forest.mp3"; sourceTree = SOURCE_ROOT; };
+		BB297EB323D87490001D302A /* River.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = River.mp3; path = "Handwritten Chinese/Assets.xcassets/Sound/Nature/River.mp3"; sourceTree = SOURCE_ROOT; };
+		BB297EBD23D87503001D302A /* WritingPage3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingPage3.swift; sourceTree = "<group>"; };
+		BB297EBF23D881E2001D302A /* Sun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Sun.mp3; path = "Handwritten Chinese/Assets.xcassets/Sound/Nature/Sun.mp3"; sourceTree = SOURCE_ROOT; };
+		BB297EC123D8A5E8001D302A /* DETwood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DETwood.swift; sourceTree = "<group>"; };
+		BB297EC323D8A5FC001D302A /* DETforest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DETforest.swift; sourceTree = "<group>"; };
+		BB297EC523D8A60C001D302A /* DETriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DETriver.swift; sourceTree = "<group>"; };
+		BB297EC723D8A61B001D302A /* DETrock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DETrock.swift; sourceTree = "<group>"; };
+		BB297EC923D8A648001D302A /* DETmountain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DETmountain.swift; sourceTree = "<group>"; };
+		BB297ECB23D8A653001D302A /* DETsun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DETsun.swift; sourceTree = "<group>"; };
+		BB824287235A0C92005DEBE0 /* DETtwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DETtwo.swift; sourceTree = "<group>"; };
+		BB824289235A0CCD005DEBE0 /* DETone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DETone.swift; sourceTree = "<group>"; };
+		BB82428B235A0CE5005DEBE0 /* DETthree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DETthree.swift; sourceTree = "<group>"; };
+		BB914452240B09660005AB70 /* Handwritten Chinese.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Handwritten Chinese.entitlements"; sourceTree = "<group>"; };
+		BB914459240BC8E30005AB70 /* Setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		BB91445B240C0B8C0005AB70 /* FirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
+		BB9F666323D1E78000799B31 /* DETeye.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DETeye.swift; sourceTree = "<group>"; };
+		BB9F666523D1EA9600799B31 /* WritingPage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingPage2.swift; sourceTree = "<group>"; };
+		BB9F666723D4656500799B31 /* DETmouth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DETmouth.swift; sourceTree = "<group>"; };
+		BB9F666A23D46D9100799B31 /* DETear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DETear.swift; sourceTree = "<group>"; };
+		BBB43E6123CE49100094D1C8 /* image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = image.swift; sourceTree = "<group>"; };
+		BBB43E6723D0D81B0094D1C8 /* Head.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Head.mp3; sourceTree = "<group>"; };
+		BBBACED92326618200AA6768 /* WritingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingPage.swift; sourceTree = "<group>"; };
+		BBC175382328366600092EAF /* AlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertView.xib; sourceTree = "<group>"; };
+		BBC1753A232837E800092EAF /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		BBC8A0112396744B007BBB92 /* five.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = five.mp3; path = "Handwritten Chinese/Assets.xcassets/Sound/Number/five.mp3"; sourceTree = SOURCE_ROOT; };
+		BBC8A0122396744B007BBB92 /* nine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nine.mp3; path = "Handwritten Chinese/Assets.xcassets/Sound/Number/nine.mp3"; sourceTree = SOURCE_ROOT; };
+		BBC8A0132396744B007BBB92 /* one.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = one.mp3; path = "Handwritten Chinese/Assets.xcassets/Sound/Number/one.mp3"; sourceTree = SOURCE_ROOT; };
+		BBC8A0142396744B007BBB92 /* three.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = three.mp3; path = "Handwritten Chinese/Assets.xcassets/Sound/Number/three.mp3"; sourceTree = SOURCE_ROOT; };
+		BBC8A0152396744B007BBB92 /* seven.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = seven.mp3; path = "Handwritten Chinese/Assets.xcassets/Sound/Number/seven.mp3"; sourceTree = SOURCE_ROOT; };
+		BBC8A0162396744B007BBB92 /* six.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = six.mp3; path = "Handwritten Chinese/Assets.xcassets/Sound/Number/six.mp3"; sourceTree = SOURCE_ROOT; };
+		BBC8A0172396744B007BBB92 /* two.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = two.mp3; path = "Handwritten Chinese/Assets.xcassets/Sound/Number/two.mp3"; sourceTree = SOURCE_ROOT; };
+		BBC8A0182396744B007BBB92 /* eight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = eight.mp3; path = "Handwritten Chinese/Assets.xcassets/Sound/Number/eight.mp3"; sourceTree = SOURCE_ROOT; };
+		BBC8A0192396744B007BBB92 /* four.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = four.mp3; path = "Handwritten Chinese/Assets.xcassets/Sound/Number/four.mp3"; sourceTree = SOURCE_ROOT; };
+		BBC8A02323973A28007BBB92 /* Haoma.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Haoma.mp3; path = "Handwritten Chinese/Assets.xcassets/Sound/Number/Haoma.mp3"; sourceTree = SOURCE_ROOT; };
+		BBD14BD223D5E8EB00A779C0 /* Mouth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Mouth.mp3; path = "Handwritten Chinese/Assets.xcassets/Sound/Face/Mouth.mp3"; sourceTree = SOURCE_ROOT; };
+		BBD14BD323D5E8EB00A779C0 /* Eye.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Eye.mp3; path = "Handwritten Chinese/Assets.xcassets/Sound/Face/Eye.mp3"; sourceTree = SOURCE_ROOT; };
+		BBD14BD423D5E8EB00A779C0 /* Ear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Ear.mp3; path = "Handwritten Chinese/Assets.xcassets/Sound/Face/Ear.mp3"; sourceTree = SOURCE_ROOT; };
+		BBD14BD523D5E8EB00A779C0 /* Nose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Nose.mp3; path = "Handwritten Chinese/Assets.xcassets/Sound/Face/Nose.mp3"; sourceTree = SOURCE_ROOT; };
+		BBD14BDA23D5EDF100A779C0 /* Face.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Face.mp3; path = "Handwritten Chinese/Assets.xcassets/Sound/Face/Face.mp3"; sourceTree = SOURCE_ROOT; };
+		BBDECD762401400C0018D0C3 /* WritingPage4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingPage4.swift; sourceTree = "<group>"; };
+		BBDECD78240140300018D0C3 /* DETup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DETup.swift; sourceTree = "<group>"; };
+		BBDECD7A2401403E0018D0C3 /* DETdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DETdown.swift; sourceTree = "<group>"; };
+		BBDECD7C2401404E0018D0C3 /* DETright.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DETright.swift; sourceTree = "<group>"; };
+		BBDECD7E2401405C0018D0C3 /* DETleft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DETleft.swift; sourceTree = "<group>"; };
+		BBDECD81240140F40018D0C3 /* Left.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Left.mp3; path = "Handwritten Chinese/Assets.xcassets/Sound/Direction/Left.mp3"; sourceTree = SOURCE_ROOT; };
+		BBDECD82240140F40018D0C3 /* Up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Up.mp3; path = "Handwritten Chinese/Assets.xcassets/Sound/Direction/Up.mp3"; sourceTree = SOURCE_ROOT; };
+		BBDECD83240140F40018D0C3 /* Direction.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Direction.mp3; path = "Handwritten Chinese/Assets.xcassets/Sound/Direction/Direction.mp3"; sourceTree = SOURCE_ROOT; };
+		BBDECD84240140F40018D0C3 /* Down.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Down.mp3; path = "Handwritten Chinese/Assets.xcassets/Sound/Direction/Down.mp3"; sourceTree = SOURCE_ROOT; };
+		BBDECD85240140F50018D0C3 /* Right.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Right.mp3; path = "Handwritten Chinese/Assets.xcassets/Sound/Direction/Right.mp3"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB098F9223259C8D00C914AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB098FA923259C8E00C914AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB098FB423259C8E00C914AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB098F8C23259C8D00C914AF = {
+			isa = PBXGroup;
+			children = (
+				BB098F9723259C8D00C914AF /* Handwritten Chinese */,
+				BB098FAF23259C8E00C914AF /* Handwritten ChineseTests */,
+				BB098FBA23259C8E00C914AF /* Handwritten ChineseUITests */,
+				BB098F9623259C8D00C914AF /* Products */,
+				BB91444F240B09660005AB70 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BB098F9623259C8D00C914AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB098F9523259C8D00C914AF /* Handwritten Chinese.app */,
+				BB098FAC23259C8E00C914AF /* Handwritten ChineseTests.xctest */,
+				BB098FB723259C8E00C914AF /* Handwritten ChineseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB098F9723259C8D00C914AF /* Handwritten Chinese */ = {
+			isa = PBXGroup;
+			children = (
+				BB914452240B09660005AB70 /* Handwritten Chinese.entitlements */,
+				BB22955A23AF8C4700D9D5C9 /* Special Views */,
+				BB22954D23AF668C00D9D5C9 /* Font */,
+				BB098F9A23259C8D00C914AF /* ViewController.swift */,
+				BB91445B240C0B8C0005AB70 /* FirstPage.swift */,
+				BBBACED92326618200AA6768 /* WritingPage.swift */,
+				BB22956123B0F4AB00D9D5C9 /* SetVocab.swift */,
+				BB1AAF4923C62168000937DA /* SetVob.swift */,
+				BB098F9823259C8D00C914AF /* AppDelegate.swift */,
+				BB914459240BC8E30005AB70 /* Setting.swift */,
+				BB098FA223259C8E00C914AF /* Assets.xcassets */,
+				BB297EAB23D74EA6001D302A /* Main.storyboard */,
+				BB098FA423259C8E00C914AF /* LaunchScreen.storyboard */,
+				BB098FA723259C8E00C914AF /* Info.plist */,
+				BBC175382328366600092EAF /* AlertView.xib */,
+				BBC1753A232837E800092EAF /* AlertView.swift */,
+				BBDECD7524013E6A0018D0C3 /* DET Direction */,
+				BBB43E6923D0F9B00094D1C8 /* DET Head */,
+				BB82428D235A3538005DEBE0 /* DET Number */,
+				BB297EBC23D874E0001D302A /* DET Nature */,
+				BBC89FFD239673AE007BBB92 /* Sound */,
+			);
+			path = "Handwritten Chinese";
+			sourceTree = "<group>";
+		};
+		BB098FAF23259C8E00C914AF /* Handwritten ChineseTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB098FB023259C8E00C914AF /* Handwritten_ChineseTests.swift */,
+				BB098FB223259C8E00C914AF /* Info.plist */,
+			);
+			path = "Handwritten ChineseTests";
+			sourceTree = "<group>";
+		};
+		BB098FBA23259C8E00C914AF /* Handwritten ChineseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB098FBB23259C8E00C914AF /* Handwritten_ChineseUITests.swift */,
+				BB098FBD23259C8E00C914AF /* Info.plist */,
+			);
+			path = "Handwritten ChineseUITests";
+			sourceTree = "<group>";
+		};
+		BB22954D23AF668C00D9D5C9 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				BB22955223AF68A200D9D5C9 /* KaiTi.ttf */,
+				BB22955423AF68AA00D9D5C9 /* THSarabun.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		BB22955A23AF8C4700D9D5C9 /* Special Views */ = {
+			isa = PBXGroup;
+			children = (
+				BBB43E6123CE49100094D1C8 /* image.swift */,
+			);
+			path = "Special Views";
+			sourceTree = "<group>";
+		};
+		BB297EAD23D86D5B001D302A /* Nature */ = {
+			isa = PBXGroup;
+			children = (
+				BB297EB223D87490001D302A /* Forest.mp3 */,
+				BB297EB123D87490001D302A /* Mountain.mp3 */,
+				BB297EAE23D87490001D302A /* Nature.mp3 */,
+				BB297EB323D87490001D302A /* River.mp3 */,
+				BB297EAF23D87490001D302A /* Rock.mp3 */,
+				BB297EB023D87490001D302A /* Wood.mp3 */,
+				BB297EBF23D881E2001D302A /* Sun.mp3 */,
+			);
+			path = Nature;
+			sourceTree = "<group>";
+		};
+		BB297EBC23D874E0001D302A /* DET Nature */ = {
+			isa = PBXGroup;
+			children = (
+				BB297EBD23D87503001D302A /* WritingPage3.swift */,
+				BB297EC123D8A5E8001D302A /* DETwood.swift */,
+				BB297EC323D8A5FC001D302A /* DETforest.swift */,
+				BB297EC523D8A60C001D302A /* DETriver.swift */,
+				BB297EC723D8A61B001D302A /* DETrock.swift */,
+				BB297EC923D8A648001D302A /* DETmountain.swift */,
+				BB297ECB23D8A653001D302A /* DETsun.swift */,
+			);
+			path = "DET Nature";
+			sourceTree = "<group>";
+		};
+		BB82428D235A3538005DEBE0 /* DET Number */ = {
+			isa = PBXGroup;
+			children = (
+				BB824289235A0CCD005DEBE0 /* DETone.swift */,
+				BB824287235A0C92005DEBE0 /* DETtwo.swift */,
+				BB82428B235A0CE5005DEBE0 /* DETthree.swift */,
+				BB22955623AF730400D9D5C9 /* DETfour.swift */,
+				BB22955F23AF9E8600D9D5C9 /* DETfive.swift */,
+				BB1AAF3D23B67FFF000937DA /* DETsix.swift */,
+				BB1AAF3F23B6800D000937DA /* DETseven.swift */,
+				BB1AAF4123B68034000937DA /* DETeight.swift */,
+				BB1AAF4323B68042000937DA /* DETnine.swift */,
+				BB1AAF4523B6805E000937DA /* DETten.swift */,
+			);
+			path = "DET Number";
+			sourceTree = "<group>";
+		};
+		BB91444F240B09660005AB70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBB43E6623D0D7CC0094D1C8 /* Head */ = {
+			isa = PBXGroup;
+			children = (
+				BBD14BDA23D5EDF100A779C0 /* Face.mp3 */,
+				BBB43E6723D0D81B0094D1C8 /* Head.mp3 */,
+				BBD14BD423D5E8EB00A779C0 /* Ear.mp3 */,
+				BBD14BD323D5E8EB00A779C0 /* Eye.mp3 */,
+				BBD14BD223D5E8EB00A779C0 /* Mouth.mp3 */,
+				BBD14BD523D5E8EB00A779C0 /* Nose.mp3 */,
+			);
+			path = Head;
+			sourceTree = "<group>";
+		};
+		BBB43E6923D0F9B00094D1C8 /* DET Head */ = {
+			isa = PBXGroup;
+			children = (
+				BB9F666523D1EA9600799B31 /* WritingPage2.swift */,
+				BB9F666323D1E78000799B31 /* DETeye.swift */,
+				BB9F666723D4656500799B31 /* DETmouth.swift */,
+				BB9F666A23D46D9100799B31 /* DETear.swift */,
+			);
+			path = "DET Head";
+			sourceTree = "<group>";
+		};
+		BBC89FFD239673AE007BBB92 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				BB22302B240A64A200AE1545 /* Main.mp3 */,
+				BBDECD80240140DE0018D0C3 /* Direction */,
+				BB297EAD23D86D5B001D302A /* Nature */,
+				BBB43E6623D0D7CC0094D1C8 /* Head */,
+				BBC8A01023967438007BBB92 /* Number */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		BBC8A01023967438007BBB92 /* Number */ = {
+			isa = PBXGroup;
+			children = (
+				BB22955823AF871E00D9D5C9 /* ten.mp3 */,
+				BBC8A02323973A28007BBB92 /* Haoma.mp3 */,
+				BBC8A0182396744B007BBB92 /* eight.mp3 */,
+				BBC8A0112396744B007BBB92 /* five.mp3 */,
+				BBC8A0192396744B007BBB92 /* four.mp3 */,
+				BBC8A0122396744B007BBB92 /* nine.mp3 */,
+				BBC8A0132396744B007BBB92 /* one.mp3 */,
+				BBC8A0152396744B007BBB92 /* seven.mp3 */,
+				BBC8A0162396744B007BBB92 /* six.mp3 */,
+				BBC8A0142396744B007BBB92 /* three.mp3 */,
+				BBC8A0172396744B007BBB92 /* two.mp3 */,
+			);
+			path = Number;
+			sourceTree = "<group>";
+		};
+		BBDECD7524013E6A0018D0C3 /* DET Direction */ = {
+			isa = PBXGroup;
+			children = (
+				BBDECD762401400C0018D0C3 /* WritingPage4.swift */,
+				BBDECD78240140300018D0C3 /* DETup.swift */,
+				BBDECD7A2401403E0018D0C3 /* DETdown.swift */,
+				BBDECD7C2401404E0018D0C3 /* DETright.swift */,
+				BBDECD7E2401405C0018D0C3 /* DETleft.swift */,
+			);
+			path = "DET Direction";
+			sourceTree = "<group>";
+		};
+		BBDECD80240140DE0018D0C3 /* Direction */ = {
+			isa = PBXGroup;
+			children = (
+				BBDECD83240140F40018D0C3 /* Direction.mp3 */,
+				BBDECD82240140F40018D0C3 /* Up.mp3 */,
+				BBDECD81240140F40018D0C3 /* Left.mp3 */,
+				BBDECD85240140F50018D0C3 /* Right.mp3 */,
+				BBDECD84240140F40018D0C3 /* Down.mp3 */,
+			);
+			path = Direction;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB098F9423259C8D00C914AF /* Handwritten Chinese */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB098FC023259C8E00C914AF /* Build configuration list for PBXNativeTarget "Handwritten Chinese" */;
+			buildPhases = (
+				BB098F9123259C8D00C914AF /* Sources */,
+				BB098F9223259C8D00C914AF /* Frameworks */,
+				BB098F9323259C8D00C914AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Handwritten Chinese";
+			productName = "Handwritten Chinese";
+			productReference = BB098F9523259C8D00C914AF /* Handwritten Chinese.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB098FAB23259C8E00C914AF /* Handwritten ChineseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB098FC323259C8E00C914AF /* Build configuration list for PBXNativeTarget "Handwritten ChineseTests" */;
+			buildPhases = (
+				BB098FA823259C8E00C914AF /* Sources */,
+				BB098FA923259C8E00C914AF /* Frameworks */,
+				BB098FAA23259C8E00C914AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB098FAE23259C8E00C914AF /* PBXTargetDependency */,
+			);
+			name = "Handwritten ChineseTests";
+			productName = "Handwritten ChineseTests";
+			productReference = BB098FAC23259C8E00C914AF /* Handwritten ChineseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB098FB623259C8E00C914AF /* Handwritten ChineseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB098FC623259C8E00C914AF /* Build configuration list for PBXNativeTarget "Handwritten ChineseUITests" */;
+			buildPhases = (
+				BB098FB323259C8E00C914AF /* Sources */,
+				BB098FB423259C8E00C914AF /* Frameworks */,
+				BB098FB523259C8E00C914AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB098FB923259C8E00C914AF /* PBXTargetDependency */,
+			);
+			name = "Handwritten ChineseUITests";
+			productName = "Handwritten ChineseUITests";
+			productReference = BB098FB723259C8E00C914AF /* Handwritten ChineseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB098F8D23259C8D00C914AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					tOne,
+				);
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Knpblo;
+				TargetAttributes = {
+					BB098F9423259C8D00C914AF = {
+						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+						};
+					};
+					BB098FAB23259C8E00C914AF = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = BB098F9423259C8D00C914AF;
+					};
+					BB098FB623259C8E00C914AF = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = BB098F9423259C8D00C914AF;
+					};
+				};
+			};
+			buildConfigurationList = BB098F9023259C8D00C914AF /* Build configuration list for PBXProject "Handwritten Chinese" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB098F8C23259C8D00C914AF;
+			productRefGroup = BB098F9623259C8D00C914AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB098F9423259C8D00C914AF /* Handwritten Chinese */,
+				BB098FAB23259C8E00C914AF /* Handwritten ChineseTests */,
+				BB098FB623259C8E00C914AF /* Handwritten ChineseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB098F9323259C8D00C914AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB22955923AF871E00D9D5C9 /* ten.mp3 in Resources */,
+				BBC8A01B2396744B007BBB92 /* nine.mp3 in Resources */,
+				BBD14BD923D5E8EB00A779C0 /* Nose.mp3 in Resources */,
+				BBC175392328366600092EAF /* AlertView.xib in Resources */,
+				BBDECD86240140F50018D0C3 /* Left.mp3 in Resources */,
+				BB297EB723D87490001D302A /* Mountain.mp3 in Resources */,
+				BB098FA623259C8E00C914AF /* LaunchScreen.storyboard in Resources */,
+				BB098FA323259C8E00C914AF /* Assets.xcassets in Resources */,
+				BBDECD8A240140F50018D0C3 /* Right.mp3 in Resources */,
+				BB297EAC23D74EA6001D302A /* Main.storyboard in Resources */,
+				BBD14BD723D5E8EB00A779C0 /* Eye.mp3 in Resources */,
+				BBC8A01E2396744B007BBB92 /* seven.mp3 in Resources */,
+				BBC8A0212396744B007BBB92 /* eight.mp3 in Resources */,
+				BB297EC023D881E2001D302A /* Sun.mp3 in Resources */,
+				BB297EB823D87490001D302A /* Forest.mp3 in Resources */,
+				BBDECD88240140F50018D0C3 /* Direction.mp3 in Resources */,
+				BB22955523AF68AA00D9D5C9 /* THSarabun.ttf in Resources */,
+				BB297EB923D87490001D302A /* River.mp3 in Resources */,
+				BBC8A01C2396744B007BBB92 /* one.mp3 in Resources */,
+				BBC8A0202396744B007BBB92 /* two.mp3 in Resources */,
+				BB22955323AF68A300D9D5C9 /* KaiTi.ttf in Resources */,
+				BB297EB523D87490001D302A /* Rock.mp3 in Resources */,
+				BBC8A0222396744B007BBB92 /* four.mp3 in Resources */,
+				BBC8A01F2396744B007BBB92 /* six.mp3 in Resources */,
+				BB297EB623D87490001D302A /* Wood.mp3 in Resources */,
+				BBC8A02423973A28007BBB92 /* Haoma.mp3 in Resources */,
+				BB297EB423D87490001D302A /* Nature.mp3 in Resources */,
+				BB22302C240A64A200AE1545 /* Main.mp3 in Resources */,
+				BBD14BD623D5E8EB00A779C0 /* Mouth.mp3 in Resources */,
+				BBB43E6823D0D81B0094D1C8 /* Head.mp3 in Resources */,
+				BBD14BD823D5E8EB00A779C0 /* Ear.mp3 in Resources */,
+				BBD14BDB23D5EDF100A779C0 /* Face.mp3 in Resources */,
+				BBC8A01A2396744B007BBB92 /* five.mp3 in Resources */,
+				BBDECD89240140F50018D0C3 /* Down.mp3 in Resources */,
+				BBDECD87240140F50018D0C3 /* Up.mp3 in Resources */,
+				BBC8A01D2396744B007BBB92 /* three.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB098FAA23259C8E00C914AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB098FB523259C8E00C914AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB098F9123259C8D00C914AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1AAF4A23C62168000937DA /* SetVob.swift in Sources */,
+				BBB43E6223CE49100094D1C8 /* image.swift in Sources */,
+				BB22955723AF730400D9D5C9 /* DETfour.swift in Sources */,
+				BB9F666B23D46D9100799B31 /* DETear.swift in Sources */,
+				BBDECD7D2401404E0018D0C3 /* DETright.swift in Sources */,
+				BB297EC823D8A61B001D302A /* DETrock.swift in Sources */,
+				BB824288235A0C92005DEBE0 /* DETtwo.swift in Sources */,
+				BBBACEDA2326618200AA6768 /* WritingPage.swift in Sources */,
+				BB098F9B23259C8D00C914AF /* ViewController.swift in Sources */,
+				BB1AAF4423B68042000937DA /* DETnine.swift in Sources */,
+				BB9F666823D4656500799B31 /* DETmouth.swift in Sources */,
+				BB098F9923259C8D00C914AF /* AppDelegate.swift in Sources */,
+				BBDECD772401400C0018D0C3 /* WritingPage4.swift in Sources */,
+				BB297EC423D8A5FC001D302A /* DETforest.swift in Sources */,
+				BB82428C235A0CE5005DEBE0 /* DETthree.swift in Sources */,
+				BB9F666423D1E78000799B31 /* DETeye.swift in Sources */,
+				BB22956223B0F4AB00D9D5C9 /* SetVocab.swift in Sources */,
+				BB297EBE23D87503001D302A /* WritingPage3.swift in Sources */,
+				BB297EC623D8A60C001D302A /* DETriver.swift in Sources */,
+				BB1AAF3E23B68000000937DA /* DETsix.swift in Sources */,
+				BB297ECC23D8A653001D302A /* DETsun.swift in Sources */,
+				BB82428A235A0CCD005DEBE0 /* DETone.swift in Sources */,
+				BBDECD7F2401405C0018D0C3 /* DETleft.swift in Sources */,
+				BB297ECA23D8A648001D302A /* DETmountain.swift in Sources */,
+				BB1AAF4623B6805E000937DA /* DETten.swift in Sources */,
+				BBC1753B232837E800092EAF /* AlertView.swift in Sources */,
+				BB22956023AF9E8600D9D5C9 /* DETfive.swift in Sources */,
+				BB1AAF4023B6800D000937DA /* DETseven.swift in Sources */,
+				BB1AAF4223B68034000937DA /* DETeight.swift in Sources */,
+				BB9F666623D1EA9600799B31 /* WritingPage2.swift in Sources */,
+				BBDECD79240140300018D0C3 /* DETup.swift in Sources */,
+				BB91445C240C0B8C0005AB70 /* FirstPage.swift in Sources */,
+				BB297EC223D8A5E9001D302A /* DETwood.swift in Sources */,
+				BB91445A240BC8E30005AB70 /* Setting.swift in Sources */,
+				BBDECD7B2401403E0018D0C3 /* DETdown.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB098FA823259C8E00C914AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB098FB123259C8E00C914AF /* Handwritten_ChineseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB098FB323259C8E00C914AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB098FBC23259C8E00C914AF /* Handwritten_ChineseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB098FAE23259C8E00C914AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB098F9423259C8D00C914AF /* Handwritten Chinese */;
+			targetProxy = BB098FAD23259C8E00C914AF /* PBXContainerItemProxy */;
+		};
+		BB098FB923259C8E00C914AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB098F9423259C8D00C914AF /* Handwritten Chinese */;
+			targetProxy = BB098FB823259C8E00C914AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB098FA423259C8E00C914AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB098FA523259C8E00C914AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB098FBE23259C8E00C914AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB098FBF23259C8E00C914AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB098FC123259C8E00C914AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YUKAR9VKU7;
+				INFOPLIST_FILE = "Handwritten Chinese/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Knpblo.Handwritten-Chinese";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB098FC223259C8E00C914AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YUKAR9VKU7;
+				INFOPLIST_FILE = "Handwritten Chinese/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Knpblo.Handwritten-Chinese";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB098FC423259C8E00C914AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Handwritten ChineseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Knpblo.Handwritten-ChineseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Handwritten Chinese.app/Handwritten Chinese";
+			};
+			name = Debug;
+		};
+		BB098FC523259C8E00C914AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Handwritten ChineseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Knpblo.Handwritten-ChineseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Handwritten Chinese.app/Handwritten Chinese";
+			};
+			name = Release;
+		};
+		BB098FC723259C8E00C914AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Handwritten ChineseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Knpblo.Handwritten-ChineseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Handwritten Chinese";
+			};
+			name = Debug;
+		};
+		BB098FC823259C8E00C914AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Handwritten ChineseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Knpblo.Handwritten-ChineseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Handwritten Chinese";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB098F9023259C8D00C914AF /* Build configuration list for PBXProject "Handwritten Chinese" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB098FBE23259C8E00C914AF /* Debug */,
+				BB098FBF23259C8E00C914AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB098FC023259C8E00C914AF /* Build configuration list for PBXNativeTarget "Handwritten Chinese" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB098FC123259C8E00C914AF /* Debug */,
+				BB098FC223259C8E00C914AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB098FC323259C8E00C914AF /* Build configuration list for PBXNativeTarget "Handwritten ChineseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB098FC423259C8E00C914AF /* Debug */,
+				BB098FC523259C8E00C914AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB098FC623259C8E00C914AF /* Build configuration list for PBXNativeTarget "Handwritten ChineseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB098FC723259C8E00C914AF /* Debug */,
+				BB098FC823259C8E00C914AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB098F8D23259C8D00C914AF /* Project object */;
+}
